@@ -1,0 +1,25 @@
+= Socket controller
+
+Here's the corrected version of the text:
+
+The socket controller detects a load by measuring AC current. When a load is detected, the controller waits for some time (1.5 hours) and then turns off the load for a short period of time (a few seconds) before turning it on again.
+
+This feature is useful for people who forget to turn off their TVs.
+
+    When a person turns on the TV,
+    the TV works for 1.5 hours,
+    and then the controller turns it off for 4 seconds by switching the relay off and on.
+
+Now, the TV is in standby mode and ready to be turned on with the remote control.
+
+== Components
+
+* Digispark tiny microcontroller
+* ZMCT103C AC current sensor
+* SRD-05VDC relay
+* HLK-PM01 (5V 3W) AC-DC power supply
+
+== Schematic
+
+https://easyeda.com/editor#id=0388b58759d646c983210a0a6c0e76c1|f07713529ecd4dacb7133882ff7c5802
+
